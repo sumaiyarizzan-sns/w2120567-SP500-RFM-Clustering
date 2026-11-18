@@ -1,0 +1,5 @@
+Ward_RFM,n,share_%,mean_wkly_ret_%,median_wkly_ret_%,mean_beta,median_beta,median_R_days,mean_F_days,median_M_$bn,mean_M_$bn,top_sector
+1,207,42.6,0.247,0.244,0.926,0.924,11.0,2.942,10.785,11.1,Industrials (19%)
+2,43,8.8,0.281,0.276,1.008,1.047,11.0,5.372,14.43,14.962,Industrials (26%)
+3,82,16.9,0.286,0.244,1.009,1.047,54.5,2.098,17.849,47.159,Information Technology (22%)
+4,154,31.7,0.338,0.325,1.01,0.989,11.0,2.864,39.695,80.145,Information Technology (20%)

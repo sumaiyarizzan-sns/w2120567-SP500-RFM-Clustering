@@ -1,0 +1,18 @@
+Ticker,Security,Sector,Rule,Detail
+APP,AppLovin,Communication Services,V2 unequal history,valid prices 2021-04-15 to 2024-12-31
+COIN,Coinbase,Financials,V2 unequal history,valid prices 2021-04-14 to 2024-12-31
+CEG,Constellation Energy,Utilities,V2 unequal history,valid prices 2022-01-19 to 2024-12-31
+EXE,Expand Energy,Energy,V2 unequal history,valid prices 2021-02-10 to 2024-12-31
+FDXF,FedEx Freight,Industrials,V1 no price data,no Adj Close returned for 2021-2024 (failed download / not trading)
+FERG,Ferguson Enterprises,Industrials,V5 volume error,27 days with volume <= 0
+GEHC,GE HealthCare,Health Care,V2 unequal history,valid prices 2022-12-15 to 2024-12-31
+GEV,GE Vernova,Industrials,V2 unequal history,valid prices 2024-03-27 to 2024-12-31
+HONA,Honeywell Aerospace,Industrials,V1 no price data,no Adj Close returned for 2021-2024 (failed download / not trading)
+Q,Qnity Electronics,Information Technology,V1 no price data,no Adj Close returned for 2021-2024 (failed download / not trading)
+RDDT,Reddit,Communication Services,V2 unequal history,valid prices 2024-03-21 to 2024-12-31
+HOOD,Robinhood Markets,Financials,V2 unequal history,valid prices 2021-07-29 to 2024-12-31
+SNDK,Sandisk,Information Technology,V1 no price data,no Adj Close returned for 2021-2024 (failed download / not trading)
+SW,Smurfit Westrock,Materials,V5 volume error,424 days with volume <= 0
+SOLV,Solventum,Health Care,V2 unequal history,valid prices 2024-03-26 to 2024-12-31
+VLTO,Veralto,Industrials,V2 unequal history,valid prices 2023-10-04 to 2024-12-31
+VYLR,Vylor,Consumer Staples,V1 no price data,no Adj Close returned for 2021-2024 (failed download / not trading)

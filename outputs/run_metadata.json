@@ -1,0 +1,85 @@
+{
+  "constituents_source": "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies",
+  "constituents_retrieved_utc": "2026-11-18T05:36:51+00:00",
+  "price_source": "Yahoo Finance via yfinance 0.2.66, auto_adjust=False, actions=True",
+  "prices_downloaded_utc": "2026-11-18T05:38:12+00:00",
+  "study_start": "2021-01-01",
+  "study_end_exclusive": "2025-01-01",
+  "observation_date": "2024-12-31",
+  "rfm_window": [
+    "2024-10-07",
+    "2024-12-31"
+  ],
+  "weekly_returns": [
+    "2021-01-15",
+    "2024-12-27",
+    207
+  ],
+  "excluded_edge_weeks": [
+    "2025-01-03"
+  ],
+  "n_constituents": 503,
+  "n_validated": 486,
+  "n_common": 486,
+  "selected_k": {
+    "Ward_RR": 3,
+    "KMeans_RR": 3,
+    "Ward_RFM": 4,
+    "KMeans_RFM": 4
+  },
+  "ARI": {
+    "Ward vs K-means (risk-return)": 0.5164,
+    "Ward vs K-means (RFM)": 0.343,
+    "Risk-return vs RFM (Ward)": 0.0237,
+    "Risk-return vs RFM (K-means)": 0.0115
+  },
+  "ARI_RFM_vs_RF_only": 0.2026,
+  "kmeans_seed_stability": {
+    "K-means RR": 1.0,
+    "K-means RFM": 0.9982
+  },
+  "total_return_benchmark_check": {
+    "corr_beta_price_vs_TR": 0.9999987908176841,
+    "median_abs_diff": 0.0004458449727450797,
+    "max_abs_diff": 0.002576808378993878
+  },
+  "critical_checks": {
+    "bootstrap": {
+      "Ward_RR": {
+        "mean_ARI": 0.352,
+        "p5": 0.107,
+        "p95": 0.623
+      },
+      "Ward_RFM": {
+        "mean_ARI": 0.473,
+        "p5": 0.263,
+        "p95": 0.749
+      },
+      "KMeans_RR": {
+        "mean_ARI": 0.874,
+        "p5": 0.655,
+        "p95": 0.99
+      },
+      "KMeans_RFM": {
+        "mean_ARI": 0.932,
+        "p5": 0.786,
+        "p95": 1.0
+      }
+    },
+    "avg_pairwise_corr": 0.29951298871658144,
+    "top_event_day": "2024-12-20",
+    "top_event_day_pct": 0.7283950617283951
+  },
+  "seed": 42,
+  "kmeans_n_init": 50,
+  "versions": {
+    "python": "3.13.18",
+    "pandas": "2.2.3",
+    "numpy": "2.4.6",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.10.0",
+    "seaborn": "0.13.2",
+    "yfinance": "0.2.66"
+  }
+}

@@ -1,0 +1,5 @@
+KMeans_RFM,n,share_%,mean_wkly_ret_%,median_wkly_ret_%,mean_beta,median_beta,median_R_days,mean_F_days,median_M_$bn,mean_M_$bn,top_sector
+1,122,25.1,0.257,0.253,0.966,0.922,11.0,4.549,12.826,15.015,Industrials (20%)
+2,212,43.6,0.275,0.259,0.939,0.931,11.0,2.368,13.336,15.175,Industrials (20%)
+3,61,12.6,0.3,0.253,0.975,1.051,55.0,1.672,21.242,56.18,Information Technology (21%)
+4,91,18.7,0.341,0.295,1.064,1.048,11.0,3.231,60.183,117.301,Information Technology (27%)
